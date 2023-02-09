@@ -105,6 +105,10 @@ public class Controlador {
 
 	public void mostrarInsertarDepartamentos() {
 		dialogoAnadirDepartamento.vaciar();
+		ArrayList<Centro> listaCentros = centroDAO.obtenerCentros();
+		
+		dialogoAnadirDepartamento.setListaCentros(listaCentros);
+		
 		dialogoAnadirDepartamento.setVisible(true);
 		
 	}

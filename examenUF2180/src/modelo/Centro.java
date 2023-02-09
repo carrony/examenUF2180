@@ -16,8 +16,8 @@ public class Centro {
 	
 	
 	/**
-	 * Constructor sin parámetros. Sólo incializa las variables de tipo String
-	 * a la cadena vacía
+	 * Constructor sin parï¿½metros. Sï¿½lo incializa las variables de tipo String
+	 * a la cadena vacï¿½a
 	 */
 	public Centro() {
 		this.nombre="";
@@ -37,23 +37,23 @@ public class Centro {
 	}
 
 	/**
-	 * Método que obtiene el el código del centro
-	 * @return int con el código del centro
+	 * Mï¿½todo que obtiene el el cï¿½digo del centro
+	 * @return int con el cï¿½digo del centro
 	 */
 	public int getCod_centro() {
 		return cod_centro;
 	}
 
 	/**
-	 * Método que establece el valor para el código del centro
-	 * @param cod_centro int con el código del centro
+	 * Mï¿½todo que establece el valor para el cï¿½digo del centro
+	 * @param cod_centro int con el cï¿½digo del centro
 	 */
 	public void setCod_centro(int cod_centro) {
 		this.cod_centro = cod_centro;
 	}
 
 	/**
-	 * Método para obtener el String que almacena el nombre del centro
+	 * Mï¿½todo para obtener el String que almacena el nombre del centro
 	 * @return String con el nombre del centro
 	 */
 	public String getNombre() {
@@ -61,7 +61,7 @@ public class Centro {
 	}
 
 	/** 
-	 * Método que establece el nombre del centro
+	 * Mï¿½todo que establece el nombre del centro
 	 * @param nombre String con el nombre a establecer
 	 */
 	public void setNombre(String nombre) {
@@ -69,16 +69,16 @@ public class Centro {
 	}
 
 	/** 
-	 * Método que devuelve la dirección del centro
-	 * @return String con la dirección del centro
+	 * Mï¿½todo que devuelve la direcciï¿½n del centro
+	 * @return String con la direcciï¿½n del centro
 	 */
 	public String getDireccion() {
 		return direccion;
 	}
 
 	/**
-	 * Método que devuelve la dirección del centro 
-	 * @param String direccion La dirección del centro a devolver
+	 * Mï¿½todo que devuelve la direcciï¿½n del centro 
+	 * @param String direccion La direcciï¿½n del centro a devolver
 	 */
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
@@ -103,7 +103,7 @@ public class Centro {
 
 	@Override
 	public String toString() {
-		return "Centro [cod_centro=" + cod_centro + ", nombre=" + nombre + ", direccion=" + direccion + "]";
+		return this.cod_centro+ " - "+this.getNombre();
 	}
 	
 	
