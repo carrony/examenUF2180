@@ -13,9 +13,14 @@ import java.sql.SQLException;
  */
 public class ConexionBD {
 
+	/*create user empresa1 identified by '@1De4ÑLk';
+
+	grant select, insert, update, delete on empresa.* to empresa1;
+	flush privileges;*/
+	
 	private static final String database = "empresa";
-	private static final String usuario = "root";
-	private static final String contrasena = "123456";
+	private static final String usuario = "empresa1";
+	private static final String contrasena = "@1De4ÑLk";
 	private static final String url="jdbc:mysql://localhost/"+database;
 	
 	private Connection conexion=null;
